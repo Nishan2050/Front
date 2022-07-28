@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  
+</head>
+  <body>
+
+    <!-- name
+        symbol
+        totalsupply
+        transfer(address to, amount)
+        transferFrom(address from, address to, amount)
+        approve()
+    
+    -->
+
+    <div class="container" style="width: 700px;">
+        <h1 class="text-center"> Nishan Token sale - ERC20 Token Frontend</h1>
+        <h4 class="p-3 mb-2 bg-secondary text-white"> Name = Nishan</h4>
+        <h4 class="p-3 mb-2 bg-secondary text-white"> Token Symbol = NGO</h4>
+        <h4 class="p-3 mb-2 bg-secondary text-white"> Total Supply of Tokens = 700,000</h4>
+        <br>
+
+
+    
+        <form class="form-inline">
+            <label class="sr-only" for="inlineFormInput">Transfer Function</label>
+            <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInput" placeholder="Receiver's address">
+            <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInput" placeholder="Enter the amount of tokens">
+            <button type="submit" class="btn btn-primary mb-2">Transfer</button>
+        </form>
+
+        <form class="form-inline">
+            <label class="sr-only" for="inlineFormInput">Transfer From Function</label>
+            <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInput" placeholder="Sender's address">
+            <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInput" placeholder="Receiver's address">
+            <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInput" placeholder="Enter the amount of tokens">
+            <button type="submit" class="btn btn-primary mb-2">Submit</button>
+        </form>
+
+        <form class="form-inline">
+            <label class="sr-only" for="inlineFormInput">Approve Function</label>
+            <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInput" placeholder="Spender's address">
+            <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInput" placeholder="Enter the amount of tokens">
+            <button type="submit" class="btn btn-primary mb-2">Approve</button>
+        </form>
+
+
+
+    </div>
+    
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  
+</body>
+</html>
